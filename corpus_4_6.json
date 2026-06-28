@@ -1,0 +1,286 @@
+[
+  {
+    "id": 4,
+    "title": "差不多先生传",
+    "author": "胡适",
+    "titleEn": "Mr. About-the-Same",
+    "authorEn": "Hu Shih",
+    "intro": "胡适(1891—1962)的《差不多先生传》是一篇针砭社会陋习的讽刺小品，1924年6月28日发表在《申报·平民周刊》的创刊号上，曾不胫而走，传诵一时。此文至今读来，犹感有极深刻的现实意义。",
+    "paragraphs": [
+      {
+        "id": "4-p1",
+        "zh": "你知道中国最有名的人是谁？提起此人，人人皆晓，处处闻名。他姓差，名不多，是各省各县各村人氏。你一定见过他，一定听过别人谈起他。差不多先生的名字天天挂在大家的口头，因为他是中国全国人的代表。",
+        "en": "Do you know who is the most well-known person in China?\nThe name of this person is a household word all over the country. His surname is Cha and his given name, Buduo, which altogether mean \"About the Same\". He is a native of every province, every county and every village in this country. You must have seen or heard about this person. His name is always on the lips of everybody because he is representative of the whole Chinese nation.",
+        "notes": [
+          {
+            "index": 1,
+            "original": "他姓差，名不多",
+            "translation": "His surname is Cha and his given name, Buduo, which altogether mean \"About the Same\"",
+            "explanation": "如仅仅译为 His surname is Cha and his given name, Buduo，外国读者只知其音，不知其意，故在后面加补充说明 which altogether mean \"About-the-Same\"。"
+          }
+        ]
+      },
+      {
+        "id": "4-p2",
+        "zh": "差不多先生的相貌和你和我都差不多。他有一双眼睛，但看的不很清楚；有两只耳朵，但听的不很分明；有鼻子和嘴，但他对于气味和口味都不很讲究。他的脑子也不小，但他的记性却不很精明，他的思想也不很细密。\n他常常说：凡事只要差不多，就好了。何必太精明呢？",
+        "en": "Mr. Cha Buduo has the same physiognomy as you and I. He has a pair of eyes, but doesn't see clearly. He has a pair of ears, but doesn't hear well. He has a nose and a mouth, but lacks a keen sense of smell and taste. His brain is none too small, but he is weak in memory and sloppy in thinking.\nHe often says, \"Whatever we do, it's OK to be just about right. What's the use of being precise and accurate?\"",
+        "notes": [
+          {
+            "index": 2,
+            "original": "他的思想也不很细密",
+            "translation": "sloppy in thinking",
+            "explanation": "译为 He is … sloppy in thinking，其中 sloppy 作无条理、凌乱解。"
+          }
+        ]
+      },
+      {
+        "id": "4-p3",
+        "zh": "他小的时候，他妈叫他去买红糖，他买了白糖回来。他妈骂他，他摇摇头说：红糖白糖不是差不多吗？\n他在学堂的时候，先生问他：直隶省的西边是哪一省？他说是陕西。先生说：错了。是山西，不是陕西。他说：陕西同山西，不是差不多吗？",
+        "en": "One day, when he was a child, his mother sent him out to buy her some brown sugar, but he returned with some white sugar instead. As his mother scolded him about it, he shook his head and said, \"Brown sugar or white sugar, aren't they about the same?\"\nOne day in school, the teacher asked him, \"Which province borders Hebei on the west?\" He answered, \"Shaanxi.\" The teacher corrected him, \"You are wrong. It's Shanxi, not Shaanxi.\" He retorted, \"Shaanxi or Shanxi, aren't they about the same?\"",
+        "notes": [
+          {
+            "index": 3,
+            "original": "直隶",
+            "translation": "Hebei",
+            "explanation": "直隶为旧省名，即今之河北，故译为 Hebei。"
+          }
+        ]
+      },
+      {
+        "id": "4-p4",
+        "zh": "后来他在一个钱铺里作伙计；他也会写，也会算，只是总不会精细。十字常常写成千字，千字常常写成十字。掌柜的生气了，常常骂他。他只是笑嘻嘻地赔小心道：千字比十字只多一小撇，不是差不多吗？",
+        "en": "Later Mr. Cha Buduo served as an assistant at a money shop. He could write and calculate all right, but his mathematics were often faulty. He would mistake the Chinese character 十 (meaning 10) for 千 (meaning 1,000) or vice versa. The shop owner was infuriated and often took him to task. But he would only explain apologetically with a grin, \"The character 千 differs from 十 in merely having one additional short stroke. Aren't they about the same?\"",
+        "notes": [
+          {
+            "index": 4,
+            "original": "钱铺",
+            "translation": "money shop",
+            "explanation": "钱铺又称钱庄，大多仅从事兑换业务，后为银行所代替。钱铺可译为 private bank 或 banking house，但均不如 money (exchange) shop 确切。"
+          }
+        ]
+      },
+      {
+        "id": "4-p5",
+        "zh": "有一天，他为了一件要紧的事，要搭火车到上海去。他从从容容地走到火车站，迟了两分钟，火车已经开走了。他白瞪着眼，望着远远的火车上的煤烟，摇摇头道：只好明天再走了，今天走同明天走，也差不多。可是火车公司未免太认真了。8点30分开，同8点32分开，不是差不多吗？他一面说，一面慢慢地走回家，心里总不明白为什么火车不肯等他两分钟。",
+        "en": "One day, he wanted to go to Shanghai by train on urgent business. But he arrived at the railway station unhurriedly only to find the train already gone, because he was two minutes late. He stood staring helplessly at the smoke belching from the diminishing train, and shook his head, \"Well, all I can do is leave tomorrow. After all, today and tomorrow are about the same. But isn't the railway company taking it too seriously? What's the difference between departing at 8:30 and 8:32?\" He walked home slowly while talking to himself and kept puzzling over why the train hadn't waited for him for another two minutes.",
+        "notes": []
+      },
+      {
+        "id": "4-p6",
+        "zh": "有一天，他忽然得了急病，赶快叫家人去请东街的汪医生。那家人急急忙忙地跑去，一时寻不着东街的汪大夫，却把西街牛医王大夫请来了。差不多先生病在床上，知道寻错了人；但病急了，身上痛苦，心里焦急，等不得了，心里想道：好在王大夫同汪大夫也差不多，让他试试看罢。于是这位牛医王大夫走近床前，用医牛的法子给差不多先生治病。不上一点钟，差不多先生就一命鸣呼了。",
+        "en": "One day he suddenly fell ill and immediately told one of his family to fetch Dr. Wang of East Street. The latter went in a hurry, but couldn't find the physician on East Street. So he fetched instead veterinarian Wang of West Street. Mr. Cha Buduo, lying on his sickbed, knew that a wrong person had been brought home. But, what with pain and worry, he could ill afford to wait any longer. So he said to himself, \"Luckily, vet Wang is about the same as Dr. Wang. Why not let Vet Wang have a try?\" Thereupon, the veterinarian walked up to his bed to work on him as if he were a cow. Consequently, Mr. Cha Buduo kicked the bucket before an hour was out.",
+        "notes": []
+      },
+      {
+        "id": "4-p7",
+        "zh": "差不多先生差不多要死的时候，一口气断断续续地说道：活人同死人也……差……差不多，……凡事只要……差……差……不多……就……好了，……何……何……必……太……太认真呢？他说完了这句格言，方才绝气了。",
+        "en": "When Mr. Cha Buduo was about to breathe his last, he uttered intermittently in one breath, \"Live or die, it's about… about… the same… Whatever we do… it's OK… to be… just… just about right… Why… why… take it… so seriously?\" As soon as he finished this pet phrase of his, he stopped breathing.",
+        "notes": [
+          {
+            "index": 5,
+            "original": "格言",
+            "translation": "pet phrase",
+            "explanation": "格言在这里意同口头语，现参照上下文译为 pet phrase。"
+          }
+        ]
+      },
+      {
+        "id": "4-p8",
+        "zh": "他死后，大家都很称赞差不多先生样样事情看得破，想得通；大家都说他一生不肯认真，不肯算账，不肯计较，真是一位有德行的人。于是大家给他取个死后的法号，叫他做圆通大师。\n他的名誉越传越远，越久越大。无数无数的人都学他的榜样。于是人人都成了一个差不多先生。——然而中国从此就成为一个懒人国了。",
+        "en": "After Mr. Cha Buduo's death, people all praised him for his way of seeing through things and his philosophical approach to life. They say that he refused to take things seriously all his life and that he was never calculating or particular about personal gains or losses. So they called him a virtuous man and honored him with the posthumous reverent title Master of Easy-Going.\nHis name has spread far and wide and become more and more celebrated with the passing of time. Innumerable people have come to follow his example, so that everybody has become a Mr. Cha Buduo. But lo, China will hence be a nation of lazybones!",
+        "notes": [
+          {
+            "index": 6,
+            "original": "想得通",
+            "translation": "philosophical approach to life",
+            "explanation": "想得通意即达观或随遇而安，故译为 philosophical approach to life。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "不要抛弃学问",
+    "author": "胡适",
+    "titleEn": "Never Give up the Pursuit of Learning",
+    "authorEn": "Hu Shih",
+    "intro": "胡适是中国现代史上一个颇有影响而又相当复杂的学者。除学术著作外，他写过很多富于洞察力和启发性的文章。《不要抛弃学问》是他1928—1930年在上海任中国公学校长时为毕业生所作赠言，至今仍有参考价值。",
+    "paragraphs": [
+      {
+        "id": "5-p1",
+        "zh": "诸位毕业同学：你们现在要离开母校了，我没有什么礼物送你们，只好送你们一句话罢。\n这一句话是：不要抛弃学问。以前的功课也许有一大部分是为了这张毕业文凭，不得已而做的，从今以后，你们可以依自己的心愿去自由研究了。趁现在年富力强的时候，努力做一种专门学问。少年是一去不复返的，等到精力衰时，要做学问也来不及了。即为吃饭计，学问决不会辜负人的。吃饭而不求学问，三年五年之后，你们都要被后来少年淘汰掉的。到那时再想做点学问来补救，恐怕已太晚了。",
+        "en": "Dear Students of the Graduating Class,\nAs you are leaving your alma mater, I have nothing to offer you as a gift except a word of advice.\nMy advice is, \"Never give up the pursuit of learning.\" You have perhaps finished your college courses mostly for obtaining the diploma, or, in other words, out of sheer necessity. However, from now on you are free to follow your own bent in the choice of studies. While you are in the prime of life, why not devote yourselves to a special field of study? Youth will soon be gone never to return. And it will be too late for you to go into scholarship when in your declining years. Knowledge will do you a good turn even as a means of subsistence. If you give up studies while holding a job, you will in a couple of years have had yourselves replaced by younger people. It will then be too late to remedy the situation by picking up studies again.",
+        "notes": [
+          {
+            "index": 1,
+            "original": "不要抛弃学问",
+            "translation": "Never Give up the Pursuit of Learning",
+            "explanation": "在这里的意思是不要放弃对学问的追求，因此不能直译为 Never Give up Learning，必须加字：Never Give up the Pursuit of Learning。"
+          },
+          {
+            "index": 2,
+            "original": "你们可以依自己的心愿去自由研究了",
+            "translation": "you are free to follow your own bent in the choice of studies",
+            "explanation": "其中 to follow one's bent 是成语，和 to follow one's inclination 同义，作做自己感兴趣或爱做的事解。"
+          },
+          {
+            "index": 3,
+            "original": "做学问",
+            "translation": "to go into scholarship",
+            "explanation": "译为 to go into scholarship，等于 to engage in learning。"
+          },
+          {
+            "index": 4,
+            "original": "学问决不会辜负人的",
+            "translation": "Knowledge will do you a good turn",
+            "explanation": "其中 to do one a good turn 是成语，作做对某人有益的事解。"
+          }
+        ]
+      },
+      {
+        "id": "5-p2",
+        "zh": "有人说：出去做事之后，生活问题急需解决，哪有工夫去读书？即使要做学问，既没有图书馆，又没有实验室，哪能做学问？\n我要对你们说：凡是要等到有了图书馆方才读书的，有了图书馆也不肯读书。凡是要等到有了实验室方才做研究的，有了实验室也不肯做研究。你有了决心要研究一个问题，自然会搏衣节食去买书，自然会想出法子来设置仪器。",
+        "en": "Some people say, \"Once you have a job, you'll come up against the urgent problem of making a living. How can you manage to find time to study? Even if you want to, will it be possible with no library or laboratory available?\"\nNow let me tell you this. Those who refuse to study for lack of a library will most probably continue to do so even though there is a library. And those who refuse to do research for lack of a laboratory will most probably continue to do so even though a laboratory is available. As long as you set your mind on studies, you will naturally cut down on food and clothing to buy books or do everything possible to acquire necessary instruments.",
+        "notes": [
+          {
+            "index": 5,
+            "original": "搏衣节食",
+            "translation": "cut down on food and clothing",
+            "explanation": "即省吃省穿，现译为 cut down on food and clothing，其中 to cut down on 是成语，与 to economize on 同义，作节约解。又，上语也可译为 to live frugally。"
+          }
+        ]
+      },
+      {
+        "id": "5-p3",
+        "zh": "至于时间，更不成问题。达尔文一生多病，不能多做工，每天只能做一点钟的工作。你们看他的成绩！每天花一点钟看10页有用的书，每年可看3,600多页书，30年可读11万页书。\n诸位，11万页书可以使你成一个学者了。可是，每天看三种小报也得费你一点钟的工夫，四圈麻将也得费你一点半钟的光阴。看小报呢？还是打麻将呢？还是努力做一个学者呢？全靠你们自己的选择！",
+        "en": "Time is no object. Charles Darwin could only work one hour a day due to ill health. Yet what a remarkable man he was! If you spend one hour a day reading 10 pages of a book, you can finish more than 3,600 pages a year, and 110,000 pages in 30 years.\nDear students, 110,000 pages will be quite enough to make a learned man of you. It will take you one hour to read three tabloids a day, and one and half hours to finish four rounds of mah-jong a day. Reading tabloids, playing mah-jong or striving to be a learned man, the choice lies with you.",
+        "notes": [
+          {
+            "index": 6,
+            "original": "至于时间，更不成问题",
+            "translation": "Time is no object",
+            "explanation": "其中 no object 是成语，等于 no problem，作不成问题或不在话下解。"
+          },
+          {
+            "index": 7,
+            "original": "全靠你们自己的选择",
+            "translation": "the choice lies with you",
+            "explanation": "译为 the choice lies with you 或 it is up to you to make the choice。"
+          }
+        ]
+      },
+      {
+        "id": "5-p4",
+        "zh": "易卜生说：你的最大责任是把你这块材料铸造成器。\n学问便是铸器的工具。抛弃了学问便是毁了你们自己。\n再会了！你们的母校眼睁睁地要看你们十年之后成什么器。",
+        "en": "Henrik Ibsen says, \"It is your supreme duty to cast yourself into a useful implement.\"\nLearning is the casting mould. Forsake learning, and you will ruin yourself.\nFarewell! Your alma mater is watching eagerly to see what will become of you ten years from now.",
+        "notes": [
+          {
+            "index": 8,
+            "original": "你们的母校眼睁睁地要看……",
+            "translation": "Your alma mater is watching eagerly",
+            "explanation": "眼睁睁地通常的意思是无可奈何地，现在这里作热切地解，故译为 eagerly。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "我之于书",
+    "author": "夏丏尊",
+    "titleEn": "Books and I",
+    "authorEn": "Xia Mianzun",
+    "intro": "夏丏尊(1886—1946)浙江上虞人，是我国著名文学家、教育家、出版家。他的文学创作以散文为主，多为随笔、杂感，内容积极、健康，风格平淡朴素。此文于1933年11月发表在《中学生》杂志上。",
+    "paragraphs": [
+      {
+        "id": "6-p1",
+        "zh": "二十年来，我生活费中至少十分之一二是消耗在书上的。我的房子里比较贵重的东西就是书。",
+        "en": "For twenty years past, books have eaten into at least 10-20 percent of my pocket. Now the only things of some value under my roof, if any, are my books.",
+        "notes": [
+          {
+            "index": 1,
+            "original": "我之于书",
+            "translation": "Books and I",
+            "explanation": "译为 Books and I，比 I and Books 符合英语习惯，读音也较顺口。"
+          },
+          {
+            "index": 2,
+            "original": "我的生活费中至少十分之一二是消耗在书上的",
+            "translation": "books have eaten into at least 10-20 percent of my pocket",
+            "explanation": "其中成语 to eat into 作耗尽或花费解，意同 to use up 或 to spend gradually；pocket 作腰包解。"
+          },
+          {
+            "index": 3,
+            "original": "我的房子里",
+            "translation": "under my roof",
+            "explanation": "译为 under my roof，意同 in my house。"
+          }
+        ]
+      },
+      {
+        "id": "6-p2",
+        "zh": "我一向没有对于任何问题作高深研究的野心，因之所买的书范围较广，宗教、艺术、文学、社会、哲学、历史、生物，各方面差不多都有一点。最多的是各国文学名著的译本，与本国古来的诗文集，别的门类只是些概论等类的入门书而已。",
+        "en": "Since I have never entertained ambition for making a profound study of any subject, the books I have acquired cover almost everything — religion, art, literature, sociology, philosophy, history, biology, etc. Most of them are Chinese translations of literary works by famous foreign writers and anthologies of Chinese poetry and prose through the ages. The rest, often called an outline or introduction, are merely on rudiments of various subjects.",
+        "notes": []
+      },
+      {
+        "id": "6-p3",
+        "zh": "我不喜欢向别人或图书馆借书。借来的书，在我好像过不来瘾似的，必要是自己买的才满足。这也可谓是一种占有的欲望。买到了几册新书，一册一册地加盖藏书印记，我最感到快悦的是这时候。",
+        "en": "I never care to borrow books from other people or a library. It seems that books bought can better satisfy my bibliomania than books borrowed. You may also attribute this to some sort of desire for personal possessions. Whenever I have some new acquisitions, it always gives me great pleasure and satisfaction to stamp my ex-libris on them one by one.",
+        "notes": [
+          {
+            "index": 4,
+            "original": "好像过不来瘾似的",
+            "translation": "bibliomania",
+            "explanation": "中的瘾指藏书癖，故译为 bibliomania，意即 desire or passion for collecting books。"
+          },
+          {
+            "index": 5,
+            "original": "藏书印",
+            "translation": "ex-libris",
+            "explanation": "译为 ex-libris，为专用语。"
+          }
+        ]
+      },
+      {
+        "id": "6-p4",
+        "zh": "书籍到了我的手里，我的习惯是先看序文，次看目录。页数不多的往往立刻通读，篇幅大的，只把正文任择一二章节略加翻阅，就插在书架上。除小说外，我少有全体读完的大部的书，只凭了购入当时的记忆，知道某册书是何种性质，其中大概有些什么可取的材料而已。什么书在什么时候再去读再去翻，连我自己也无把握，完全要看一个时期一个时期的兴趣。关于这事，我常自比为古时的皇帝，而把插在架上的书譬诸列屋而居的宫女。",
+        "en": "As soon as a new book comes to hand, I always read the preface first and then the table of contents. If it happens to be a thin one, I often finish reading it at one sitting. Otherwise, I often browse through one or two chapters or sections before putting it onto my bookshelf. I seldom read a thick book from cover to cover unless it is a novel. By dint of the first impression it made on me at the time of buying, I have a rough idea of what a book is about and what useful materials in it are available to me. But I have little idea which book is to be read or looked over again at what time. It is completely subject to the whims of the moment. This often prompts me to liken myself and the books on my shelves respectively to an ancient emperor and his concubines housed separately in a row of adjoining rooms.",
+        "notes": [
+          {
+            "index": 6,
+            "original": "往往立刻通读",
+            "translation": "I often finish reading it at one sitting",
+            "explanation": "其中 at one sitting（亦作 at a sitting）为成语，作坐着一口气或一下子解。"
+          },
+          {
+            "index": 7,
+            "original": "宫女",
+            "translation": "concubines",
+            "explanation": "本可译为 court ladies 或 palace maids，但原文实际上指的是妃子，故译为 concubines。"
+          }
+        ]
+      },
+      {
+        "id": "6-p5",
+        "zh": "我虽爱买书，而对于书却不甚爱惜。读书的时候，常在书上把我所认为要紧的处所标出。线装书大概用笔加圈，洋装书竟用红铅笔划粗粗的线。经我看过的书，统体干净的很少。",
+        "en": "Much as I love books, I take little care of them. In doing my reading, I often mark out what I regard as important in a book. If it is a thread-bound Chinese book, I use a writing brush to draw small circles as markings. Otherwise, I use a red pencil to draw heavy underlines. Consequently, the books I have read are rarely clean.",
+        "notes": []
+      },
+      {
+        "id": "6-p6",
+        "zh": "据说，任何爱吃糖果的人，只要叫他到糖果铺中去做事，见了糖果就会生厌。自我入书店以后，对于书的贪念也已消除了不少了，可不免要故态复萌，想买这种，想买那种。这大概因为糖果要用嘴去吃，摆存毫无意义，而书则可以买了不看，任其只管插在架上的缘故吧。",
+        "en": "It is said that those who have a great liking for candies will sicken to see them when later they happen to work in a candy store. Likewise, ever since I began to work in a bookstore, my obsession with books has been very much on the decline. Nevertheless, I still cannot help slipping back into the same old rut, eager to buy this and that book. This is probably because candies are to be eaten with the mouth and not worth keeping as knickknacks while books can be bought without being read and just left on a shelf.",
+        "notes": [
+          {
+            "index": 8,
+            "original": "故态复萌",
+            "translation": "slipping back into the same old rut",
+            "explanation": "译为 slipping back into the same old rut，或 relapsing into my old habit。"
+          }
+        ]
+      }
+    ]
+  }
+]

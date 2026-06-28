@@ -1,0 +1,574 @@
+[
+  {
+    "id": 1,
+    "title": "艰难的国运与雄健的国民",
+    "author": "李大钊",
+    "titleEn": "National Crisis vs Heroic Nation",
+    "authorEn": "Li Dazhao",
+    "intro": "李大钊(1888—1927)此文载于1923年12月20日《新民国》第1卷第2号上，短小隽永，堪称一首诗意盎然的抒情散文诗。作者用象征、比喻等手法，说明历史发展的必然规律以及中国革命面临的艰难险阻。译时除文字须符合英语规范外，应力求传达原文的形象、诗一般的美感和雍容警策的笔调。",
+    "paragraphs": [
+      {
+        "id": "1-p1",
+        "zh": "历史的道路，不会是坦平的，有时走到艰难险阻的境界。这是全靠雄健的精神才能够冲过去的。",
+        "en": "The course of history is never smooth. It is sometimes beset with difficulties and obstacles and nothing short of a heroic spirit can help surmount them.",
+        "notes": [
+          {
+            "index": 1,
+            "original": "这是全靠雄健的精神才能冲过去的",
+            "translation": "nothing short of a heroic spirit can help surmount them",
+            "explanation": "其中 nothing short of 相当于 nothing less than 或 only。"
+          }
+        ]
+      },
+      {
+        "id": "1-p2",
+        "zh": "一条浩浩荡荡的长江大河，有时流到很宽阔的境界，平原无际，一泻万里。有时流到很逼狭的境界，两岸丛山迭岭，绝壁断崖，江河流于其间，回环曲折，极其险峻。民族生命的进展，其经历亦复如是。",
+        "en": "A mighty long river sometimes flows through a broad section with plains lying boundless on either side, its waters rolling on non-stop for thousands upon thousands of miles. Sometimes it comes up against a narrow section flanked by high mountains and steep cliffs, winding through a course with many a perilous twist and turn. A nation, in the course of its development, fares likewise.",
+        "notes": [
+          {
+            "index": 2,
+            "original": "宽阔的境界",
+            "translation": "a broad section",
+            "explanation": "须按上下文译为 a broad section。境界在这里不宜译为 realm、place、area 等。"
+          },
+          {
+            "index": 3,
+            "original": "一泻万里",
+            "translation": "rolling on non-stop for thousands upon thousands of miles",
+            "explanation": "但也可译为 rolling on vigorously for tens of thousands of miles 或 rolling on for thousands of miles at a stretch。"
+          },
+          {
+            "index": 4,
+            "original": "回环曲折，极其险峻",
+            "translation": "winding through a course with many a perilous twist and turn",
+            "explanation": "其中 twist and turn 来自成语 twists and turns。此句亦可译为 following a dangerous tortuous course。"
+          }
+        ]
+      },
+      {
+        "id": "1-p3",
+        "zh": "人类在历史上的生活正如旅行一样。旅途上的征人所经过的地方，有时是坦荡平原，有时是崎岖险路。志于旅途的人，走到平坦的地方，因是高高兴兴地向前走，走到崎岖的境界，愈是奇趣横生，觉得在此奇绝壮绝的境界，愈能感到一种冒险的美趣。",
+        "en": "The historical course of man's life is just like a journey. A traveller on a long journey passes through now a broad, level plain, now a rugged, hazardous road. While a determined traveller cheerfully continues his journey upon reaching a safe and smooth place, he finds it still more fascinating to come to a rugged place, the enormously magnificent spectacle of which, he feels, is better able to generate in him a wonderful sensation of adventure.",
+        "notes": [
+          {
+            "index": 5,
+            "original": "征人",
+            "translation": "a traveller on a long journey",
+            "explanation": "即远行之人，故译旅途上的征人为 a traveller on a long journey。"
+          },
+          {
+            "index": 6,
+            "original": "有时……有时……",
+            "translation": "now…, now…",
+            "explanation": "译为 now…, now…（= sometimes… and sometimes…）。"
+          },
+          {
+            "index": 7,
+            "original": "奇趣横生",
+            "translation": "fascinating",
+            "explanation": "意即极度吸引人，故译为 fascinating。"
+          },
+          {
+            "index": 8,
+            "original": "奇绝壮绝",
+            "translation": "the enormously magnificent spectacle",
+            "explanation": "意即无限壮观，故译为 the enormously magnificent spectacle。"
+          },
+          {
+            "index": 9,
+            "original": "感到一种冒险的美趣",
+            "translation": "a wonderful sensation of adventure",
+            "explanation": "意即一种敢于冒险的美妙感觉，故译为 wonderful sensation of adventure。"
+          }
+        ]
+      },
+      {
+        "id": "1-p4",
+        "zh": "中华民族现在所逢的史路，是一段崎岖险阻的道路。在这一段道路上，实在亦有一种奇绝壮绝的境致，使我们经过此段道路的人，感得一种壮美的趣味。但这种壮美的趣味，是非有雄健的精神不能够感觉到的。",
+        "en": "The Chinese nation is now confronted with a rugged and dangerous section of its historical course. Nevertheless, there is also in this section a spectacle of enormous magnificence that inspires in us passers-by a delightful sensation of splendor. And this delightful sensation, however, can only be shared by those with a heroic spirit.",
+        "notes": []
+      },
+      {
+        "id": "1-p5",
+        "zh": "我们的扬子江、黄河，可以代表我们的民族精神，扬子江及黄河遇见沙漠、遇见山峡都是浩浩荡荡的往前流过去，以成其浊流滚滚一泻万里的魄势。目前的艰难境界，那能阻抑我们民族生命的前进。我们应该拿出雄健的精神，高唱着进行的曲调，在这悲壮歌声中，走过这崎岖险阻的道路。要知在艰难的国运中建造国家，亦是人生最有趣味的事……",
+        "en": "The Yangtse River and the Yellow River are both symbolic of our national spirit. The two mighty rivers negotiate deserts and gorges until their turbid torrents surge forward with irresistible force. The present national crisis can never obstruct the advance of our national life. Let us brace up our spirits and march through this rugged, dangerous road to the tune of our solemn, stirring songs. The greatest joy of life, mind you, is to build up our country during its most difficult days.",
+        "notes": [
+          {
+            "index": 10,
+            "original": "遇见沙漠、遇见山峡都是浩浩荡荡的往前流过去，以成其浊流滚滚，一泻万里的魄势",
+            "translation": "negotiate deserts and gorges until their turbid torrents surge forward with irresistible force",
+            "explanation": "其中动词 to negotiate 的意思是顺利通过（to succeed in getting past something difficult）。又，注意 until 在这里的用法。它在此句不作直到……为止解，而是 so that finally 的意思。"
+          },
+          {
+            "index": 11,
+            "original": "要知",
+            "translation": "mind you",
+            "explanation": "译为 mind you，插入句中。成语 mind you 的意思是 mind what I say 或 however，相当于汉语的请注意或说真的。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "螃蟹",
+    "author": "鲁迅",
+    "titleEn": "The Crab",
+    "authorEn": "Lu Xun",
+    "intro": "《螃蟹》是近年发现的鲁迅(1881—1936)佚文。文章发表于1919年8月间，时值五四运动方兴未艾，作者通过寓言故事，提醒人们新生事物往往有被旧事物消灭于萌芽状态的危险。",
+    "paragraphs": [
+      {
+        "id": "2-p1",
+        "zh": "老螃蟹觉得不安了，觉得全身太硬了，自己知道要蜕壳了。",
+        "en": "An old crab grew restless. Finding himself stiff all over, he knew it was time for him to moult his shell.",
+        "notes": [
+          {
+            "index": 1,
+            "original": "觉得全身太硬了",
+            "translation": "Finding himself stiff all over",
+            "explanation": "其中 all over 意即全身或浑身，作状语短语用。如逐字译为 Finding his whole body stiff 并无不可，但语言稍欠地道。"
+          },
+          {
+            "index": 2,
+            "original": "蜕壳",
+            "translation": "to moult his shell",
+            "explanation": "其中 to moult 为专用语，意同 to cast off。"
+          }
+        ]
+      },
+      {
+        "id": "2-p2",
+        "zh": "他跑来跑去的寻。他想寻一个窟穴，躲了身子，将石子堵了穴口，隐隐的蜕壳。他知道外面蜕壳是危险的。身子还软，要被别的螃蟹吃去的。这并非空害怕，他实在亲眼见过。",
+        "en": "He dashed here and there in search of a cave to hide. He was going to block up the mouth of the cave so that he could moult in secret. He knew it would be very dangerous to shed his shell in the open because, with his new shell still being soft, he might be eaten up by other crabs. This fear was not groundless for he himself had really seen it happen to other moulting crabs.",
+        "notes": [
+          {
+            "index": 3,
+            "original": "外面蜕壳",
+            "translation": "(to moult) in the open",
+            "explanation": "外面意即在露天，故译为 in the open，以代替 to moult outside the cave。"
+          },
+          {
+            "index": 4,
+            "original": "身子还软",
+            "translation": "with his new shell still being soft",
+            "explanation": "意即蜕去旧壳后新壳还软，故译为 with his new shell still being soft。如按字面直译为 with his body still being soft 则欠确切，因身子在此指新壳，不泛指躯体。"
+          }
+        ]
+      },
+      {
+        "id": "2-p3",
+        "zh": "他慌慌张张的走。",
+        "en": "The old crab kept moving about in a hurry.",
+        "notes": []
+      },
+      {
+        "id": "2-p4",
+        "zh": "旁边的螃蟹问他说：老兄，你何以这般慌？\n他说：我要蜕壳了。\n就在这里蜕不很好么？我还要帮你呢。\n那可太怕人了。\n你不怕窟穴里的别的东西，却怕我们同种么？\n我不是怕同种。\n那还怕什么呢？\n就怕你要吃掉我。",
+        "en": "A nearby crab asked, \"Hey, brother, what's the rush?\"\n\"I am going to moult,\" answered the old crab.\n\"Wouldn't it be all right to moult right here? I could help you out with it.\"\n\"How horrible that would be!\"\n\"You mean while you're not scared of other things in the cave you're scared of your own kind?\"\n\"No, I'm not scared of my own kind.\"\n\"Then what are you scared of?\"\n\"Nothing but being eaten up by you.\"",
+        "notes": [
+          {
+            "index": 5,
+            "original": "旁边的螃蟹",
+            "translation": "A nearby crab",
+            "explanation": "译为 A nearby crab，比 A crab beside him 灵活。"
+          },
+          {
+            "index": 6,
+            "original": "就怕你要吃掉我",
+            "translation": "Nothing but being eaten up by you",
+            "explanation": "译为 Nothing but being eaten up by you，乃 I'm scared of nothing but being eaten up by you 之略。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "落花生",
+    "author": "许地山",
+    "titleEn": "Peanuts",
+    "authorEn": "Xu Dishan",
+    "intro": "本文是许地山(1892—1941)的一篇久为流传的散文。作者回忆自己童年时代的一个小小片断，以朴实无华、清新自然的笔调，从花生的平凡而有用，谈到做人的道理，富于哲理，反映他身处旧社会的污泥浊流而洁身自好、不慕虚名的思想境界。英译时以保持原作娓娓讲故事的朴素风格为要，译文除符合英语习惯和规范外，遣词宜力求通俗，造句宜力求简洁。",
+    "paragraphs": [
+      {
+        "id": "3-p1",
+        "zh": "我们屋后有半亩隙地。母亲说：让它荒芜着怪可惜，既然你们那么爱吃花生，就辟来做花生园罢。我们几姊弟和几个小丫头都很喜欢——买种的买种，动土的动土，灌园的灌园：过不了几个月，居然收获了！",
+        "en": "Behind our house there lay half a mou of vacant land. Mother said, \"It's a pity to let it lie waste. Since you all like to eat peanuts so very much, why not plant some here?\" That exhilarated us children and our servant girls as well, and soon we started buying seeds, ploughing the land and watering the plants. We gathered in a good harvest just after a couple of months!",
+        "notes": [
+          {
+            "index": 1,
+            "original": "就辟来做花生园罢",
+            "translation": "why not plant some here?",
+            "explanation": "原句也可译为 why not have them planted here 或 why not make a peanut plot of it，但现译更直截了当，且避免在同一句中重复 peanuts 一词。"
+          },
+          {
+            "index": 2,
+            "original": "几姊弟",
+            "translation": "us children",
+            "explanation": "在下文将涉及，为防累赘，译 children。"
+          }
+        ]
+      },
+      {
+        "id": "3-p2",
+        "zh": "妈妈说：今晚我们可以做一个收获节，也请你们爹爹来尝尝我们底新花生，如何？我们都答应了。母亲把花生做成好几样的食品，还吩咐这节期要在园里底茅亭举行。",
+        "en": "Mother said, \"How about giving a party this evening to celebrate the harvest and inviting your Daddy to have a taste of our newly-harvested peanuts?\" We all agreed. Mother made quite a few varieties of goodies out of the peanuts, and told us that the party would be held in the thatched pavilion on the peanut plot.",
+        "notes": [
+          {
+            "index": 3,
+            "original": "做一个收获节",
+            "translation": "giving a party this evening to celebrate the harvest",
+            "explanation": "做一个收获节不宜直译为 hold a harvest festival，现取意译。"
+          },
+          {
+            "index": 4,
+            "original": "食品",
+            "translation": "goodies",
+            "explanation": "也可译为 food，但不如 goodies 贴切，goodies 指好吃的东西，常用于口语。"
+          }
+        ]
+      },
+      {
+        "id": "3-p3",
+        "zh": "那晚上底天色不大好，可是爹爹也来到，实在很难得！爹爹说：你们爱吃花生么？\n我们都争着答应：爱！\n谁能把花生底好处说出来？\n姊姊说：花生底气味很美。\n哥哥说：花生可以制油。\n我说：无论何等人都可以用贱价买它来吃；都喜欢吃它。这就是它的好处。",
+        "en": "It looked like rain that evening, yet, to our great joy, father came nevertheless. \"Do you like peanuts?\" asked father.\n\"Yes, we do!\" we vied in giving the answer.\n\"Which of you could name the good things in peanuts?\"\n\"Peanuts taste good,\" said my elder sister.\n\"Peanuts produce edible oil,\" said my elder brother.\n\"Peanuts are so cheap,\" said I, \"that anyone can afford to eat them. Peanuts are everyone's favourite. That's why we call peanuts good.\"",
+        "notes": [
+          {
+            "index": 5,
+            "original": "那晚上底天色不大好",
+            "translation": "It looked like rain that evening",
+            "explanation": "译为 It looked like rain that evening，符合原意和英语习惯。"
+          }
+        ]
+      },
+      {
+        "id": "3-p4",
+        "zh": "爹爹说：花生底用处固然很多；但有一样是很可贵的。这小小的豆不像那好看的苹果、桃子、石榴，把它们底果实悬在枝上，鲜红嫩绿的颜色，令人一望而发生羡慕的心。它只把果子埋在地底，等到成熟，才容人把它挖出来。你们偶然看见一棵花生瑟缩地长在地上，不能立刻辨出它有没有果实，非得等到你接触它才能知道。",
+        "en": "\"It's true that peanuts have many uses,\" said father, \"but they're most beloved in one respect. Unlike nice-looking apples, peaches, and pomegranates, which hang their fruit on branches and win people's admiration with their brilliant colours, tiny little peanuts bury themselves underground and remain unearthed until they're ripe. When you come upon a peanut plant lying curled up on the ground, you can never immediately tell whether or not it bears any nuts until you touch them.\"",
+        "notes": [
+          {
+            "index": 6,
+            "original": "这小小的豆",
+            "translation": "tiny little peanuts",
+            "explanation": "英语中常把 tiny 和 little 用在一起，有小得可怜（爱）等含意。"
+          },
+          {
+            "index": 7,
+            "original": "鲜红嫩绿",
+            "translation": "brilliant colours",
+            "explanation": "不宜直译，译 brilliant colours 即可。"
+          },
+          {
+            "index": 8,
+            "original": "瑟缩",
+            "translation": "lying curled up on the ground",
+            "explanation": "意即蜷曲而不舒展，故有现译。"
+          }
+        ]
+      },
+      {
+        "id": "3-p5",
+        "zh": "我们都说：是的。母亲也点点头。爹爹接下去说：所以你们要像花生，因为它是有用的，不是伟大、好看的东西。我说：那么，人要做有用的人，不要做伟大、体面的人了。爹爹说：这是我对于你们的希望。",
+        "en": "\"That's true,\" we said in unison. Mother also nodded. \"So you must take after peanuts,\" father continued, \"because they're useful though not great and nice-looking.\"\n\"Then you mean one should be useful rather than great and nice-looking,\" I said.\n\"That's what I expect of you,\" father concluded.",
+        "notes": [
+          {
+            "index": 9,
+            "original": "你们要像花生",
+            "translation": "you must take after peanuts",
+            "explanation": "其中 take after 是成语，意即 take as an example（学习……的榜样）。"
+          }
+        ]
+      },
+      {
+        "id": "3-p6",
+        "zh": "我们谈到夜阑才散，所有花生食品虽然没有了，然而父亲底话现在还印在我心版上。",
+        "en": "We kept chatting until the party broke up late at night. Today, though nothing is left of the goodies made of peanuts, father's words remain engraved in my mind.",
+        "notes": []
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "差不多先生传",
+    "author": "胡适",
+    "titleEn": "Mr. About-the-Same",
+    "authorEn": "Hu Shih",
+    "intro": "胡适(1891—1962)的《差不多先生传》是一篇针砭社会陋习的讽刺小品，1924年6月28日发表在《申报·平民周刊》的创刊号上，曾不胫而走，传诵一时。此文至今读来，犹感有极深刻的现实意义。",
+    "paragraphs": [
+      {
+        "id": "4-p1",
+        "zh": "你知道中国最有名的人是谁？提起此人，人人皆晓，处处闻名。他姓差，名不多，是各省各县各村人氏。你一定见过他，一定听过别人谈起他。差不多先生的名字天天挂在大家的口头，因为他是中国全国人的代表。",
+        "en": "Do you know who is the most well-known person in China?\nThe name of this person is a household word all over the country. His surname is Cha and his given name, Buduo, which altogether mean \"About the Same\". He is a native of every province, every county and every village in this country. You must have seen or heard about this person. His name is always on the lips of everybody because he is representative of the whole Chinese nation.",
+        "notes": [
+          {
+            "index": 1,
+            "original": "他姓差，名不多",
+            "translation": "His surname is Cha and his given name, Buduo, which altogether mean \"About the Same\"",
+            "explanation": "如仅仅译为 His surname is Cha and his given name, Buduo，外国读者只知其音，不知其意，故在后面加补充说明 which altogether mean \"About-the-Same\"。"
+          }
+        ]
+      },
+      {
+        "id": "4-p2",
+        "zh": "差不多先生的相貌和你和我都差不多。他有一双眼睛，但看的不很清楚；有两只耳朵，但听的不很分明；有鼻子和嘴，但他对于气味和口味都不很讲究。他的脑子也不小，但他的记性却不很精明，他的思想也不很细密。\n他常常说：凡事只要差不多，就好了。何必太精明呢？",
+        "en": "Mr. Cha Buduo has the same physiognomy as you and I. He has a pair of eyes, but doesn't see clearly. He has a pair of ears, but doesn't hear well. He has a nose and a mouth, but lacks a keen sense of smell and taste. His brain is none too small, but he is weak in memory and sloppy in thinking.\nHe often says, \"Whatever we do, it's OK to be just about right. What's the use of being precise and accurate?\"",
+        "notes": [
+          {
+            "index": 2,
+            "original": "他的思想也不很细密",
+            "translation": "sloppy in thinking",
+            "explanation": "译为 He is … sloppy in thinking，其中 sloppy 作无条理、凌乱解。"
+          }
+        ]
+      },
+      {
+        "id": "4-p3",
+        "zh": "他小的时候，他妈叫他去买红糖，他买了白糖回来。他妈骂他，他摇摇头说：红糖白糖不是差不多吗？\n他在学堂的时候，先生问他：直隶省的西边是哪一省？他说是陕西。先生说：错了。是山西，不是陕西。他说：陕西同山西，不是差不多吗？",
+        "en": "One day, when he was a child, his mother sent him out to buy her some brown sugar, but he returned with some white sugar instead. As his mother scolded him about it, he shook his head and said, \"Brown sugar or white sugar, aren't they about the same?\"\nOne day in school, the teacher asked him, \"Which province borders Hebei on the west?\" He answered, \"Shaanxi.\" The teacher corrected him, \"You are wrong. It's Shanxi, not Shaanxi.\" He retorted, \"Shaanxi or Shanxi, aren't they about the same?\"",
+        "notes": [
+          {
+            "index": 3,
+            "original": "直隶",
+            "translation": "Hebei",
+            "explanation": "直隶为旧省名，即今之河北，故译为 Hebei。"
+          }
+        ]
+      },
+      {
+        "id": "4-p4",
+        "zh": "后来他在一个钱铺里作伙计；他也会写，也会算，只是总不会精细。十字常常写成千字，千字常常写成十字。掌柜的生气了，常常骂他。他只是笑嘻嘻地赔小心道：千字比十字只多一小撇，不是差不多吗？",
+        "en": "Later Mr. Cha Buduo served as an assistant at a money shop. He could write and calculate all right, but his mathematics were often faulty. He would mistake the Chinese character 十 (meaning 10) for 千 (meaning 1,000) or vice versa. The shop owner was infuriated and often took him to task. But he would only explain apologetically with a grin, \"The character 千 differs from 十 in merely having one additional short stroke. Aren't they about the same?\"",
+        "notes": [
+          {
+            "index": 4,
+            "original": "钱铺",
+            "translation": "money shop",
+            "explanation": "钱铺又称钱庄，大多仅从事兑换业务，后为银行所代替。钱铺可译为 private bank 或 banking house，但均不如 money (exchange) shop 确切。"
+          }
+        ]
+      },
+      {
+        "id": "4-p5",
+        "zh": "有一天，他为了一件要紧的事，要搭火车到上海去。他从从容容地走到火车站，迟了两分钟，火车已经开走了。他白瞪着眼，望着远远的火车上的煤烟，摇摇头道：只好明天再走了，今天走同明天走，也差不多。可是火车公司未免太认真了。8点30分开，同8点32分开，不是差不多吗？他一面说，一面慢慢地走回家，心里总不明白为什么火车不肯等他两分钟。",
+        "en": "One day, he wanted to go to Shanghai by train on urgent business. But he arrived at the railway station unhurriedly only to find the train already gone, because he was two minutes late. He stood staring helplessly at the smoke belching from the diminishing train, and shook his head, \"Well, all I can do is leave tomorrow. After all, today and tomorrow are about the same. But isn't the railway company taking it too seriously? What's the difference between departing at 8:30 and 8:32?\" He walked home slowly while talking to himself and kept puzzling over why the train hadn't waited for him for another two minutes.",
+        "notes": []
+      },
+      {
+        "id": "4-p6",
+        "zh": "有一天，他忽然得了急病，赶快叫家人去请东街的汪医生。那家人急急忙忙地跑去，一时寻不着东街的汪大夫，却把西街牛医王大夫请来了。差不多先生病在床上，知道寻错了人；但病急了，身上痛苦，心里焦急，等不得了，心里想道：好在王大夫同汪大夫也差不多，让他试试看罢。于是这位牛医王大夫走近床前，用医牛的法子给差不多先生治病。不上一点钟，差不多先生就一命鸣呼了。",
+        "en": "One day he suddenly fell ill and immediately told one of his family to fetch Dr. Wang of East Street. The latter went in a hurry, but couldn't find the physician on East Street. So he fetched instead veterinarian Wang of West Street. Mr. Cha Buduo, lying on his sickbed, knew that a wrong person had been brought home. But, what with pain and worry, he could ill afford to wait any longer. So he said to himself, \"Luckily, vet Wang is about the same as Dr. Wang. Why not let Vet Wang have a try?\" Thereupon, the veterinarian walked up to his bed to work on him as if he were a cow. Consequently, Mr. Cha Buduo kicked the bucket before an hour was out.",
+        "notes": []
+      },
+      {
+        "id": "4-p7",
+        "zh": "差不多先生差不多要死的时候，一口气断断续续地说道：活人同死人也……差……差不多，……凡事只要……差……差……不多……就……好了，……何……何……必……太……太认真呢？他说完了这句格言，方才绝气了。",
+        "en": "When Mr. Cha Buduo was about to breathe his last, he uttered intermittently in one breath, \"Live or die, it's about… about… the same… Whatever we do… it's OK… to be… just… just about right… Why… why… take it… so seriously?\" As soon as he finished this pet phrase of his, he stopped breathing.",
+        "notes": [
+          {
+            "index": 5,
+            "original": "格言",
+            "translation": "pet phrase",
+            "explanation": "格言在这里意同口头语，现参照上下文译为 pet phrase。"
+          }
+        ]
+      },
+      {
+        "id": "4-p8",
+        "zh": "他死后，大家都很称赞差不多先生样样事情看得破，想得通；大家都说他一生不肯认真，不肯算账，不肯计较，真是一位有德行的人。于是大家给他取个死后的法号，叫他做圆通大师。\n他的名誉越传越远，越久越大。无数无数的人都学他的榜样。于是人人都成了一个差不多先生。——然而中国从此就成为一个懒人国了。",
+        "en": "After Mr. Cha Buduo's death, people all praised him for his way of seeing through things and his philosophical approach to life. They say that he refused to take things seriously all his life and that he was never calculating or particular about personal gains or losses. So they called him a virtuous man and honored him with the posthumous reverent title Master of Easy-Going.\nHis name has spread far and wide and become more and more celebrated with the passing of time. Innumerable people have come to follow his example, so that everybody has become a Mr. Cha Buduo. But lo, China will hence be a nation of lazybones!",
+        "notes": [
+          {
+            "index": 6,
+            "original": "想得通",
+            "translation": "philosophical approach to life",
+            "explanation": "想得通意即达观或随遇而安，故译为 philosophical approach to life。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "不要抛弃学问",
+    "author": "胡适",
+    "titleEn": "Never Give up the Pursuit of Learning",
+    "authorEn": "Hu Shih",
+    "intro": "胡适是中国现代史上一个颇有影响而又相当复杂的学者。除学术著作外，他写过很多富于洞察力和启发性的文章。《不要抛弃学问》是他1928—1930年在上海任中国公学校长时为毕业生所作赠言，至今仍有参考价值。",
+    "paragraphs": [
+      {
+        "id": "5-p1",
+        "zh": "诸位毕业同学：你们现在要离开母校了，我没有什么礼物送你们，只好送你们一句话罢。\n这一句话是：不要抛弃学问。以前的功课也许有一大部分是为了这张毕业文凭，不得已而做的，从今以后，你们可以依自己的心愿去自由研究了。趁现在年富力强的时候，努力做一种专门学问。少年是一去不复返的，等到精力衰时，要做学问也来不及了。即为吃饭计，学问决不会辜负人的。吃饭而不求学问，三年五年之后，你们都要被后来少年淘汰掉的。到那时再想做点学问来补救，恐怕已太晚了。",
+        "en": "Dear Students of the Graduating Class,\nAs you are leaving your alma mater, I have nothing to offer you as a gift except a word of advice.\nMy advice is, \"Never give up the pursuit of learning.\" You have perhaps finished your college courses mostly for obtaining the diploma, or, in other words, out of sheer necessity. However, from now on you are free to follow your own bent in the choice of studies. While you are in the prime of life, why not devote yourselves to a special field of study? Youth will soon be gone never to return. And it will be too late for you to go into scholarship when in your declining years. Knowledge will do you a good turn even as a means of subsistence. If you give up studies while holding a job, you will in a couple of years have had yourselves replaced by younger people. It will then be too late to remedy the situation by picking up studies again.",
+        "notes": [
+          {
+            "index": 1,
+            "original": "不要抛弃学问",
+            "translation": "Never Give up the Pursuit of Learning",
+            "explanation": "在这里的意思是不要放弃对学问的追求，因此不能直译为 Never Give up Learning，必须加字：Never Give up the Pursuit of Learning。"
+          },
+          {
+            "index": 2,
+            "original": "你们可以依自己的心愿去自由研究了",
+            "translation": "you are free to follow your own bent in the choice of studies",
+            "explanation": "其中 to follow one's bent 是成语，和 to follow one's inclination 同义，作做自己感兴趣或爱做的事解。"
+          },
+          {
+            "index": 3,
+            "original": "做学问",
+            "translation": "to go into scholarship",
+            "explanation": "译为 to go into scholarship，等于 to engage in learning。"
+          },
+          {
+            "index": 4,
+            "original": "学问决不会辜负人的",
+            "translation": "Knowledge will do you a good turn",
+            "explanation": "其中 to do one a good turn 是成语，作做对某人有益的事解。"
+          }
+        ]
+      },
+      {
+        "id": "5-p2",
+        "zh": "有人说：出去做事之后，生活问题急需解决，哪有工夫去读书？即使要做学问，既没有图书馆，又没有实验室，哪能做学问？\n我要对你们说：凡是要等到有了图书馆方才读书的，有了图书馆也不肯读书。凡是要等到有了实验室方才做研究的，有了实验室也不肯做研究。你有了决心要研究一个问题，自然会搏衣节食去买书，自然会想出法子来设置仪器。",
+        "en": "Some people say, \"Once you have a job, you'll come up against the urgent problem of making a living. How can you manage to find time to study? Even if you want to, will it be possible with no library or laboratory available?\"\nNow let me tell you this. Those who refuse to study for lack of a library will most probably continue to do so even though there is a library. And those who refuse to do research for lack of a laboratory will most probably continue to do so even though a laboratory is available. As long as you set your mind on studies, you will naturally cut down on food and clothing to buy books or do everything possible to acquire necessary instruments.",
+        "notes": [
+          {
+            "index": 5,
+            "original": "搏衣节食",
+            "translation": "cut down on food and clothing",
+            "explanation": "即省吃省穿，现译为 cut down on food and clothing，其中 to cut down on 是成语，与 to economize on 同义，作节约解。又，上语也可译为 to live frugally。"
+          }
+        ]
+      },
+      {
+        "id": "5-p3",
+        "zh": "至于时间，更不成问题。达尔文一生多病，不能多做工，每天只能做一点钟的工作。你们看他的成绩！每天花一点钟看10页有用的书，每年可看3,600多页书，30年可读11万页书。\n诸位，11万页书可以使你成一个学者了。可是，每天看三种小报也得费你一点钟的工夫，四圈麻将也得费你一点半钟的光阴。看小报呢？还是打麻将呢？还是努力做一个学者呢？全靠你们自己的选择！",
+        "en": "Time is no object. Charles Darwin could only work one hour a day due to ill health. Yet what a remarkable man he was! If you spend one hour a day reading 10 pages of a book, you can finish more than 3,600 pages a year, and 110,000 pages in 30 years.\nDear students, 110,000 pages will be quite enough to make a learned man of you. It will take you one hour to read three tabloids a day, and one and half hours to finish four rounds of mah-jong a day. Reading tabloids, playing mah-jong or striving to be a learned man, the choice lies with you.",
+        "notes": [
+          {
+            "index": 6,
+            "original": "至于时间，更不成问题",
+            "translation": "Time is no object",
+            "explanation": "其中 no object 是成语，等于 no problem，作不成问题或不在话下解。"
+          },
+          {
+            "index": 7,
+            "original": "全靠你们自己的选择",
+            "translation": "the choice lies with you",
+            "explanation": "译为 the choice lies with you 或 it is up to you to make the choice。"
+          }
+        ]
+      },
+      {
+        "id": "5-p4",
+        "zh": "易卜生说：你的最大责任是把你这块材料铸造成器。\n学问便是铸器的工具。抛弃了学问便是毁了你们自己。\n再会了！你们的母校眼睁睁地要看你们十年之后成什么器。",
+        "en": "Henrik Ibsen says, \"It is your supreme duty to cast yourself into a useful implement.\"\nLearning is the casting mould. Forsake learning, and you will ruin yourself.\nFarewell! Your alma mater is watching eagerly to see what will become of you ten years from now.",
+        "notes": [
+          {
+            "index": 8,
+            "original": "你们的母校眼睁睁地要看……",
+            "translation": "Your alma mater is watching eagerly",
+            "explanation": "眼睁睁地通常的意思是无可奈何地，现在这里作热切地解，故译为 eagerly。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "我之于书",
+    "author": "夏丏尊",
+    "titleEn": "Books and I",
+    "authorEn": "Xia Mianzun",
+    "intro": "夏丏尊(1886—1946)浙江上虞人，是我国著名文学家、教育家、出版家。他的文学创作以散文为主，多为随笔、杂感，内容积极、健康，风格平淡朴素。此文于1933年11月发表在《中学生》杂志上。",
+    "paragraphs": [
+      {
+        "id": "6-p1",
+        "zh": "二十年来，我生活费中至少十分之一二是消耗在书上的。我的房子里比较贵重的东西就是书。",
+        "en": "For twenty years past, books have eaten into at least 10-20 percent of my pocket. Now the only things of some value under my roof, if any, are my books.",
+        "notes": [
+          {
+            "index": 1,
+            "original": "我之于书",
+            "translation": "Books and I",
+            "explanation": "译为 Books and I，比 I and Books 符合英语习惯，读音也较顺口。"
+          },
+          {
+            "index": 2,
+            "original": "我的生活费中至少十分之一二是消耗在书上的",
+            "translation": "books have eaten into at least 10-20 percent of my pocket",
+            "explanation": "其中成语 to eat into 作耗尽或花费解，意同 to use up 或 to spend gradually；pocket 作腰包解。"
+          },
+          {
+            "index": 3,
+            "original": "我的房子里",
+            "translation": "under my roof",
+            "explanation": "译为 under my roof，意同 in my house。"
+          }
+        ]
+      },
+      {
+        "id": "6-p2",
+        "zh": "我一向没有对于任何问题作高深研究的野心，因之所买的书范围较广，宗教、艺术、文学、社会、哲学、历史、生物，各方面差不多都有一点。最多的是各国文学名著的译本，与本国古来的诗文集，别的门类只是些概论等类的入门书而已。",
+        "en": "Since I have never entertained ambition for making a profound study of any subject, the books I have acquired cover almost everything — religion, art, literature, sociology, philosophy, history, biology, etc. Most of them are Chinese translations of literary works by famous foreign writers and anthologies of Chinese poetry and prose through the ages. The rest, often called an outline or introduction, are merely on rudiments of various subjects.",
+        "notes": []
+      },
+      {
+        "id": "6-p3",
+        "zh": "我不喜欢向别人或图书馆借书。借来的书，在我好像过不来瘾似的，必要是自己买的才满足。这也可谓是一种占有的欲望。买到了几册新书，一册一册地加盖藏书印记，我最感到快悦的是这时候。",
+        "en": "I never care to borrow books from other people or a library. It seems that books bought can better satisfy my bibliomania than books borrowed. You may also attribute this to some sort of desire for personal possessions. Whenever I have some new acquisitions, it always gives me great pleasure and satisfaction to stamp my ex-libris on them one by one.",
+        "notes": [
+          {
+            "index": 4,
+            "original": "好像过不来瘾似的",
+            "translation": "bibliomania",
+            "explanation": "中的瘾指藏书癖，故译为 bibliomania，意即 desire or passion for collecting books。"
+          },
+          {
+            "index": 5,
+            "original": "藏书印",
+            "translation": "ex-libris",
+            "explanation": "译为 ex-libris，为专用语。"
+          }
+        ]
+      },
+      {
+        "id": "6-p4",
+        "zh": "书籍到了我的手里，我的习惯是先看序文，次看目录。页数不多的往往立刻通读，篇幅大的，只把正文任择一二章节略加翻阅，就插在书架上。除小说外，我少有全体读完的大部的书，只凭了购入当时的记忆，知道某册书是何种性质，其中大概有些什么可取的材料而已。什么书在什么时候再去读再去翻，连我自己也无把握，完全要看一个时期一个时期的兴趣。关于这事，我常自比为古时的皇帝，而把插在架上的书譬诸列屋而居的宫女。",
+        "en": "As soon as a new book comes to hand, I always read the preface first and then the table of contents. If it happens to be a thin one, I often finish reading it at one sitting. Otherwise, I often browse through one or two chapters or sections before putting it onto my bookshelf. I seldom read a thick book from cover to cover unless it is a novel. By dint of the first impression it made on me at the time of buying, I have a rough idea of what a book is about and what useful materials in it are available to me. But I have little idea which book is to be read or looked over again at what time. It is completely subject to the whims of the moment. This often prompts me to liken myself and the books on my shelves respectively to an ancient emperor and his concubines housed separately in a row of adjoining rooms.",
+        "notes": [
+          {
+            "index": 6,
+            "original": "往往立刻通读",
+            "translation": "I often finish reading it at one sitting",
+            "explanation": "其中 at one sitting（亦作 at a sitting）为成语，作坐着一口气或一下子解。"
+          },
+          {
+            "index": 7,
+            "original": "宫女",
+            "translation": "concubines",
+            "explanation": "本可译为 court ladies 或 palace maids，但原文实际上指的是妃子，故译为 concubines。"
+          }
+        ]
+      },
+      {
+        "id": "6-p5",
+        "zh": "我虽爱买书，而对于书却不甚爱惜。读书的时候，常在书上把我所认为要紧的处所标出。线装书大概用笔加圈，洋装书竟用红铅笔划粗粗的线。经我看过的书，统体干净的很少。",
+        "en": "Much as I love books, I take little care of them. In doing my reading, I often mark out what I regard as important in a book. If it is a thread-bound Chinese book, I use a writing brush to draw small circles as markings. Otherwise, I use a red pencil to draw heavy underlines. Consequently, the books I have read are rarely clean.",
+        "notes": []
+      },
+      {
+        "id": "6-p6",
+        "zh": "据说，任何爱吃糖果的人，只要叫他到糖果铺中去做事，见了糖果就会生厌。自我入书店以后，对于书的贪念也已消除了不少了，可不免要故态复萌，想买这种，想买那种。这大概因为糖果要用嘴去吃，摆存毫无意义，而书则可以买了不看，任其只管插在架上的缘故吧。",
+        "en": "It is said that those who have a great liking for candies will sicken to see them when later they happen to work in a candy store. Likewise, ever since I began to work in a bookstore, my obsession with books has been very much on the decline. Nevertheless, I still cannot help slipping back into the same old rut, eager to buy this and that book. This is probably because candies are to be eaten with the mouth and not worth keeping as knickknacks while books can be bought without being read and just left on a shelf.",
+        "notes": [
+          {
+            "index": 8,
+            "original": "故态复萌",
+            "translation": "slipping back into the same old rut",
+            "explanation": "译为 slipping back into the same old rut，或 relapsing into my old habit。"
+          }
+        ]
+      }
+    ]
+  }
+]
