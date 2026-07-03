@@ -740,13 +740,371 @@
         }
         nav a:hover .nav-hint { opacity: 1; }
 
-        /* Responsive */
+        /* Responsive Base */
+        img, svg { max-width: 100%; height: auto; }
+
+        /* Hamburger Menu */
+        .hamburger {
+            display: none;
+            font-size: 1.5rem;
+            cursor: pointer;
+            padding: 8px;
+            min-height: 44px;
+            z-index: 1001;
+        }
+
+        /* Upload Card */
+        .upload-card {
+            border: 2px dashed var(--color-border);
+            background: rgba(253, 250, 245, 0.5);
+            text-align: center;
+            position: relative;
+        }
+        .upload-card:hover {
+            border: 2px solid var(--color-primary);
+            background: rgba(92, 138, 92, 0.05);
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+        }
+        .upload-card .upload-icon {
+            font-size: 3rem;
+            margin-bottom: 12px;
+        }
+        .upload-card .upload-badge {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            background: var(--color-primary);
+            color: white;
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            font-size: 1.2rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .upload-card .upload-tag {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 4px 12px;
+            background: rgba(92, 138, 92, 0.1);
+            color: var(--color-primary);
+            border-radius: 15px;
+            font-size: 0.85rem;
+        }
+
+        /* Custom Article Badge */
+        .article-card .custom-badge {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            background: var(--color-wood);
+            color: white;
+            padding: 4px 10px;
+            border-radius: 4px;
+            font-size: 0.75rem;
+        }
+        .article-card .delete-btn {
+            position: absolute;
+            bottom: 15px;
+            right: 15px;
+            background: rgba(231, 76, 60, 0.1);
+            color: #e74c3c;
+            border: 1px solid #e74c3c;
+            padding: 4px 10px;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            cursor: pointer;
+            min-height: 30px;
+        }
+        .article-card .delete-btn:hover {
+            background: #e74c3c;
+            color: white;
+        }
+
+        /* Modal */
+        .modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0,0,0,0.5);
+            display: none;
+            z-index: 2000;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .modal-overlay.active { display: flex; }
+        .modal {
+            background: var(--color-paper);
+            border-radius: 12px;
+            max-width: 700px;
+            width: 100%;
+            max-height: 90vh;
+            overflow-y: auto;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+        }
+        .modal-header {
+            padding: 20px 25px;
+            border-bottom: 1px solid var(--color-border);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .modal-header h3 { font-size: 1.3rem; color: var(--color-text); }
+        .modal-close {
+            font-size: 1.5rem;
+            cursor: pointer;
+            color: #888;
+            min-height: 44px;
+            display: flex;
+            align-items: center;
+        }
+        .modal-body { padding: 25px; }
+        .modal-footer {
+            padding: 20px 25px;
+            border-top: 1px solid var(--color-border);
+            display: flex;
+            justify-content: flex-end;
+            gap: 12px;
+        }
+
+        /* Form Styles */
+        .form-group { margin-bottom: 20px; }
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: var(--color-text);
+        }
+        .form-input {
+            width: 100%;
+            padding: 12px 15px;
+            border: 1px solid var(--color-border);
+            border-radius: 8px;
+            font-size: 1rem;
+            font-family: var(--font-ui);
+            background: white;
+            min-height: 44px;
+        }
+        .form-input:focus {
+            outline: none;
+            border-color: var(--color-primary);
+            box-shadow: 0 0 0 3px rgba(92, 138, 92, 0.1);
+        }
+        .form-textarea {
+            width: 100%;
+            padding: 12px 15px;
+            border: 1px solid var(--color-border);
+            border-radius: 8px;
+            font-size: 1rem;
+            font-family: var(--font-ui);
+            resize: vertical;
+            min-height: 150px;
+            line-height: 1.8;
+        }
+
+        /* Tab Styles */
+        .tabs {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 20px;
+            border-bottom: 1px solid var(--color-border);
+            padding-bottom: 10px;
+        }
+        .tab {
+            padding: 10px 20px;
+            border: none;
+            background: none;
+            cursor: pointer;
+            font-size: 0.95rem;
+            color: #666;
+            border-radius: 6px 6px 0 0;
+            transition: all 0.3s;
+            min-height: 44px;
+        }
+        .tab:hover { color: var(--color-primary); }
+        .tab.active {
+            color: var(--color-primary);
+            background: rgba(92, 138, 92, 0.1);
+            font-weight: 600;
+        }
+
+        /* Drop Zone */
+        .drop-zone {
+            border: 2px dashed var(--color-border);
+            border-radius: 8px;
+            padding: 40px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        .drop-zone:hover, .drop-zone.dragover {
+            border-color: var(--color-primary);
+            background: rgba(92, 138, 92, 0.05);
+        }
+        .drop-zone .drop-icon {
+            font-size: 3rem;
+            margin-bottom: 15px;
+        }
+
+        /* Paragraph Preview */
+        .paragraph-preview {
+            background: rgba(92, 138, 92, 0.05);
+            border: 1px solid var(--color-border);
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 15px;
+        }
+        .paragraph-preview-content { flex: 1; }
+        .paragraph-preview-number {
+            background: var(--color-primary);
+            color: white;
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.85rem;
+            font-weight: 600;
+            flex-shrink: 0;
+        }
+        .paragraph-preview-text {
+            color: var(--color-text);
+            line-height: 1.6;
+            margin-bottom: 8px;
+        }
+        .merge-btn {
+            padding: 6px 12px;
+            background: rgba(160, 120, 90, 0.1);
+            color: var(--color-wood);
+            border: 1px solid var(--color-wood);
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 0.8rem;
+            min-height: 34px;
+            flex-shrink: 0;
+        }
+        .merge-btn:hover {
+            background: var(--color-wood);
+            color: white;
+        }
+        .warning-text {
+            color: #e74c3c;
+            background: rgba(231, 76, 60, 0.1);
+            padding: 10px 15px;
+            border-radius: 6px;
+            margin-bottom: 15px;
+        }
+
+        /* Word Count */
+        .word-count {
+            font-size: 0.85rem;
+            color: #666;
+            margin-top: 8px;
+            text-align: right;
+        }
+
+        /* Responsive - Tablet */
+        @media (min-width: 768px) and (max-width: 1023px) {
+            .article-grid { grid-template-columns: repeat(2, 1fr); }
+        }
+
+        /* Responsive - Mobile */
         @media (max-width: 768px) {
-            .demo-content { flex-direction: column; }
+            /* Nav */
+            header { padding: 0 15px; }
+            .logo { font-size: 1.15rem; }
+            nav { display: none; }
+            .hamburger { display: block; }
+            
+            /* Mobile Nav */
+            nav.mobile-open {
+                display: flex;
+                flex-direction: column;
+                position: absolute;
+                top: 64px;
+                left: 0;
+                right: 0;
+                background: var(--color-paper);
+                border-bottom: 1px solid var(--color-border);
+                padding: 15px;
+                gap: 0;
+            }
+            nav.mobile-open a {
+                padding: 15px 10px;
+                border-bottom: 1px solid rgba(212, 201, 176, 0.3);
+                min-height: 44px;
+                display: flex;
+                align-items: center;
+            }
+            nav.mobile-open a:last-child { border-bottom: none; }
+            nav a .nav-hint { display: none; }
+
+            /* Main Content */
+            main { padding-top: 90px; width: 95%; }
+            .card { padding: 20px; }
+
+            /* Article Grid */
+            .article-grid { grid-template-columns: 1fr; }
+
+            /* Exercise Page */
+            .zh-text { font-size: 14px; }
+            textarea { min-height: 120px; }
+            .btn-group .btn { width: 100%; }
+            .deduction-table { overflow-x: auto; display: block; }
+
+            /* Analytics */
+            .analytics-tabs {
+                overflow-x: auto;
+                -webkit-overflow-scrolling: touch;
+                scrollbar-width: none;
+                -ms-overflow-style: none;
+            }
+            .analytics-tabs::-webkit-scrollbar { display: none; }
             .stats-grid { grid-template-columns: repeat(2, 1fr); }
+            .chart-wrapper { max-height: 260px; }
+
+            /* Feature Guide */
             .feature-guide-grid { grid-template-columns: repeat(2, 1fr); }
+
+            /* Guide Steps */
             .guide-steps { flex-direction: column; }
             .guide-arrow { transform: rotate(90deg); }
+
+            /* Demo Content */
+            .demo-content { flex-direction: column; }
+            .demo-features { text-align: center; }
+
+            /* Modal */
+            .modal { max-height: 95vh; border-radius: 8px; }
+            .modal-header, .modal-body, .modal-footer { padding: 15px 20px; }
+            .tabs { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+            .form-textarea { min-height: 120px; }
+
+            /* Button Group */
+            .btn-group { flex-direction: column; }
+            .btn-group .btn { width: 100%; }
+
+            /* Page Hint */
+            .page-hint { flex-direction: column; gap: 10px; text-align: left; }
+
+            /* Terminology */
+            .tool-header { flex-direction: column; gap: 12px; align-items: flex-start; }
+            .data-table { font-size: 13px; }
+        }
+
+        /* Responsive - Desktop */
+        @media (min-width: 1024px) {
+            .article-grid { grid-template-columns: repeat(3, 1fr); }
         }
     </style>
 </head>
@@ -754,20 +1112,21 @@
 
     <header>
         <div class="logo" onclick="app.showView('home')">🌿 译间-散文翻译练习</div>
-        <nav>
-            <a onclick="app.showView('home')" id="nav-home">
+        <div class="hamburger" onclick="app.toggleMobileNav()">☰</div>
+        <nav id="main-nav">
+            <a onclick="app.showView('home'); app.closeMobileNav();" id="nav-home">
                 篇目选择
-                <span class="nav-hint">10篇张培基散文，逐段练习批改</span>
+                <span class="nav-hint">10篇张培基散文 + 无限自定义上传，逐段练习批改</span>
             </a>
-            <a onclick="app.showView('wrongbook')" id="nav-wrongbook">
+            <a onclick="app.showView('wrongbook'); app.closeMobileNav();" id="nav-wrongbook">
                 错题本
                 <span class="nav-hint">自动归档错误，支持反复回练</span>
             </a>
-            <a onclick="app.showView('terminology')" id="nav-terminology">
+            <a onclick="app.showView('terminology'); app.closeMobileNav();" id="nav-terminology">
                 术语库
                 <span class="nav-hint">内置+自定义术语，随时查阅</span>
             </a>
-            <a onclick="app.showView('analytics')" id="nav-analytics">
+            <a onclick="app.showView('analytics'); app.closeMobileNav();" id="nav-analytics">
                 学情分析
                 <span class="nav-hint">得分/用时/易错点可视化追踪</span>
             </a>
@@ -884,6 +1243,70 @@
             <div id="analytics-progress" class="analytics-panel"></div>
         </div>
     </main>
+
+    <!-- 上传文章弹窗 -->
+    <div id="upload-modal" class="modal-overlay">
+        <div class="modal">
+            <div class="modal-header">
+                <h3>📄 上传自定义文章</h3>
+                <span class="modal-close" onclick="app.closeUploadModal()">×</span>
+            </div>
+            <div class="modal-body">
+                <!-- 基本信息 -->
+                <div class="form-group">
+                    <label>文章标题 *</label>
+                    <input type="text" id="upload-title" class="form-input" placeholder="例如：荷塘月色">
+                </div>
+                <div class="form-group">
+                    <label>作者姓名 *</label>
+                    <input type="text" id="upload-author" class="form-input" placeholder="例如：朱自清">
+                </div>
+                <div class="form-group">
+                    <label>文章简介（可选）</label>
+                    <textarea id="upload-intro" class="form-input" rows="3" placeholder="可简要介绍文章背景，将显示在练习页顶部"></textarea>
+                </div>
+
+                <!-- 内容输入 Tab -->
+                <div class="tabs">
+                    <button class="tab active" onclick="app.switchUploadTab('paste')" id="tab-paste">直接粘贴</button>
+                    <button class="tab" onclick="app.switchUploadTab('file')" id="tab-file">上传文件</button>
+                </div>
+
+                <!-- 粘贴内容 -->
+                <div id="paste-section">
+                    <div class="form-group">
+                        <textarea id="paste-content" class="form-textarea" placeholder="请粘贴中文原文，系统将自动按段落拆分。段落间请以空行分隔。"></textarea>
+                        <div class="word-count">字数：<span id="paste-word-count">0</span> / 建议 300-3000 字</div>
+                    </div>
+                </div>
+
+                <!-- 文件上传 -->
+                <div id="file-section" style="display: none;">
+                    <div class="drop-zone" id="drop-zone" onclick="document.getElementById('file-input').click()">
+                        <div class="drop-icon">📎</div>
+                        <p>拖拽文件到此处或点击选择</p>
+                        <p style="font-size: 0.85rem; color: #666; margin-top: 10px;">仅支持 .txt 文件，UTF-8 编码，最大 500KB</p>
+                    </div>
+                    <input type="file" id="file-input" accept=".txt" style="display: none;" onchange="app.handleFileSelect(this)">
+                    <div id="file-preview" style="display: none; margin-top: 20px;">
+                        <p style="color: var(--color-primary); font-weight: 600;">已选择文件：<span id="file-name"></span></p>
+                    </div>
+                </div>
+
+                <!-- 段落预览 -->
+                <div id="paragraph-preview-section" style="display: none; margin-top: 25px;">
+                    <h4 style="margin-bottom: 15px;">📝 段落预览</h4>
+                    <div id="preview-warning"></div>
+                    <div id="paragraph-list"></div>
+                    <p style="color: #666; font-size: 0.9rem; margin-top: 15px;">共 <span id="paragraph-count">0</span> 段，确认后开始练习</p>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" onclick="app.closeUploadModal()">取消</button>
+                <button class="btn btn-primary" id="confirm-upload-btn" onclick="app.confirmUpload()" style="display: none;">确认并开始练习 →</button>
+            </div>
+        </div>
+    </div>
 
     <script>
         // --- 语料库数据 ---
@@ -1529,7 +1952,13 @@
                 terminology: [],
                 notes: [],
                 progress: {},
-                analytics: []
+                analytics: [],
+                customEssays: []
+            },
+
+            uploadTempData: {
+                paragraphs: [],
+                currentTab: 'paste'
             },
 
             init() {
@@ -1540,12 +1969,16 @@
                 this.renderTerminology();
                 this.renderWrongBook();
                 this.showView('home');
+                this.setupUploadEventListeners();
             },
 
             loadUserData() {
                 const saved = localStorage.getItem('yijing_user_data');
                 if (saved) {
                     this.userData = JSON.parse(saved);
+                }
+                if (!this.userData.customEssays) {
+                    this.userData.customEssays = [];
                 }
                 // 初始化内置术语（如果术语库为空）
                 if (this.userData.terminology.length === 0) {
@@ -2827,6 +3260,661 @@ ${user}
                 if (article) {
                     this.startExercise(article.id);
                 }
+            },
+
+            // === 响应式导航功能 ===
+            toggleMobileNav() {
+                const nav = document.getElementById('main-nav');
+                nav.classList.toggle('mobile-open');
+            },
+
+            closeMobileNav() {
+                const nav = document.getElementById('main-nav');
+                nav.classList.remove('mobile-open');
+            },
+
+            // === 自定义文章上传功能 ===
+            setupUploadEventListeners() {
+                const pasteContent = document.getElementById('paste-content');
+                if (pasteContent) {
+                    pasteContent.addEventListener('input', () => this.handleContentChange());
+                }
+
+                // 拖拽功能
+                const dropZone = document.getElementById('drop-zone');
+                if (dropZone) {
+                    dropZone.addEventListener('dragover', (e) => {
+                        e.preventDefault();
+                        dropZone.classList.add('dragover');
+                    });
+                    dropZone.addEventListener('dragleave', () => {
+                        dropZone.classList.remove('dragover');
+                    });
+                    dropZone.addEventListener('drop', (e) => {
+                        e.preventDefault();
+                        dropZone.classList.remove('dragover');
+                        if (e.dataTransfer.files.length > 0) {
+                            this.handleFile(e.dataTransfer.files[0]);
+                        }
+                    });
+                }
+            },
+
+            openUploadModal() {
+                document.getElementById('upload-modal').classList.add('active');
+                this.resetUploadModal();
+            },
+
+            closeUploadModal() {
+                document.getElementById('upload-modal').classList.remove('active');
+                this.resetUploadModal();
+            },
+
+            resetUploadModal() {
+                document.getElementById('upload-title').value = '';
+                document.getElementById('upload-author').value = '';
+                document.getElementById('upload-intro').value = '';
+                document.getElementById('paste-content').value = '';
+                document.getElementById('paste-word-count').textContent = '0';
+                document.getElementById('file-input').value = '';
+                document.getElementById('file-preview').style.display = 'none';
+                document.getElementById('paragraph-preview-section').style.display = 'none';
+                document.getElementById('confirm-upload-btn').style.display = 'none';
+                this.uploadTempData.paragraphs = [];
+                this.switchUploadTab('paste');
+            },
+
+            switchUploadTab(tab) {
+                this.uploadTempData.currentTab = tab;
+                document.getElementById('tab-paste').classList.toggle('active', tab === 'paste');
+                document.getElementById('tab-file').classList.toggle('active', tab === 'file');
+                document.getElementById('paste-section').style.display = tab === 'paste' ? 'block' : 'none';
+                document.getElementById('file-section').style.display = tab === 'file' ? 'block' : 'none';
+            },
+
+            handleContentChange() {
+                const content = document.getElementById('paste-content').value;
+                document.getElementById('paste-word-count').textContent = content.length;
+                this.parseAndPreviewContent(content);
+            },
+
+            handleFileSelect(input) {
+                if (input.files.length > 0) {
+                    this.handleFile(input.files[0]);
+                }
+            },
+
+            handleFile(file) {
+                if (file.size > 500 * 1024) {
+                    alert('文件大小不能超过 500KB');
+                    return;
+                }
+                if (!file.name.endsWith('.txt')) {
+                    alert('仅支持 .txt 文件');
+                    return;
+                }
+
+                document.getElementById('file-name').textContent = file.name;
+                document.getElementById('file-preview').style.display = 'block';
+
+                const reader = new FileReader();
+                reader.onload = (e) => {
+                    this.parseAndPreviewContent(e.target.result);
+                };
+                reader.readAsText(file, 'UTF-8');
+            },
+
+            parseAndPreviewContent(content) {
+                const paragraphs = content
+                    .split(/\n\s*\n/)
+                    .map(p => p.trim())
+                    .filter(p => p.length > 0);
+
+                this.uploadTempData.paragraphs = paragraphs;
+                this.renderParagraphPreview();
+            },
+
+            renderParagraphPreview() {
+                const container = document.getElementById('paragraph-list');
+                const warningDiv = document.getElementById('preview-warning');
+                const previewSection = document.getElementById('paragraph-preview-section');
+                const confirmBtn = document.getElementById('confirm-upload-btn');
+                const countSpan = document.getElementById('paragraph-count');
+
+                const paragraphs = this.uploadTempData.paragraphs;
+                countSpan.textContent = paragraphs.length;
+
+                if (paragraphs.length === 0) {
+                    previewSection.style.display = 'none';
+                    confirmBtn.style.display = 'none';
+                    return;
+                }
+
+                previewSection.style.display = 'block';
+
+                if (paragraphs.length > 30) {
+                    warningDiv.innerHTML = '<div class="warning-text">⚠️ 段落数量超过 30 段，建议拆分文章或合并一些段落</div>';
+                } else {
+                    warningDiv.innerHTML = '';
+                }
+
+                container.innerHTML = paragraphs.map((p, i) => `
+                    <div class="paragraph-preview">
+                        <div class="paragraph-preview-number">${i + 1}</div>
+                        <div class="paragraph-preview-content">
+                            <div class="paragraph-preview-text">${p.substring(0, 80)}${p.length > 80 ? '...' : ''}</div>
+                            ${i < paragraphs.length - 1 ? `
+                                <button class="merge-btn" onclick="app.mergeParagraphs(${i})">与下段合并</button>
+                            ` : ''}
+                        </div>
+                    </div>
+                `).join('');
+
+                confirmBtn.style.display = 'inline-block';
+            },
+
+            mergeParagraphs(index) {
+                const paragraphs = this.uploadTempData.paragraphs;
+                if (index < paragraphs.length - 1) {
+                    paragraphs[index] = paragraphs[index] + '\n' + paragraphs[index + 1];
+                    paragraphs.splice(index + 1, 1);
+                    this.renderParagraphPreview();
+                }
+            },
+
+            confirmUpload() {
+                const title = document.getElementById('upload-title').value.trim();
+                const author = document.getElementById('upload-author').value.trim();
+                const intro = document.getElementById('upload-intro').value.trim();
+                const paragraphs = this.uploadTempData.paragraphs;
+
+                if (!title) {
+                    alert('请输入文章标题');
+                    return;
+                }
+                if (!author) {
+                    alert('请输入作者姓名');
+                    return;
+                }
+                if (paragraphs.length === 0) {
+                    alert('请输入文章内容');
+                    return;
+                }
+
+                const id = 'custom_' + Date.now();
+                const newEssay = {
+                    id: id,
+                    title: title,
+                    author: author,
+                    titleEn: '',
+                    authorEn: '',
+                    intro: intro,
+                    isCustom: true,
+                    createdAt: new Date().toISOString(),
+                    paragraphs: paragraphs.map((p, i) => ({
+                        id: `${id}_p${i + 1}`,
+                        zh: p,
+                        en: null,
+                        aiReference: null,
+                        notes: []
+                    }))
+                };
+
+                this.userData.customEssays.unshift(newEssay);
+                this.saveUserData();
+                this.renderArticleList();
+
+                this.closeUploadModal();
+                this.startCustomExercise(newEssay);
+            },
+
+            startCustomExercise(essay) {
+                this.isDemoMode = false;
+                this.currentArticle = { ...essay };
+                this.currentParagraphIndex = 0;
+                this.renderExercise();
+                this.showView('exercise');
+                this.startTimer();
+            },
+
+            deleteCustomEssay(id, event) {
+                event.stopPropagation();
+                if (!confirm('确定要删除这篇自定义文章吗？所有练习记录也会被删除。')) {
+                    return;
+                }
+
+                this.userData.customEssays = this.userData.customEssays.filter(e => e.id !== id);
+                this.userData.analytics = this.userData.analytics.filter(a => a.essayId !== id);
+                if (this.userData.progress[id]) {
+                    delete this.userData.progress[id];
+                }
+                this.saveUserData();
+                this.renderArticleList();
+            },
+
+            renderArticleList() {
+                const container = document.getElementById('article-list');
+                
+                const customEssaysHTML = this.userData.customEssays.map(art => `
+                    <div class="card article-card" onclick="app.startCustomExercise(this.getAttribute('data-essay'))" data-essay='${JSON.stringify(art).replace(/'/g, "\\'")}'>
+                        <div class="custom-badge">自定义</div>
+                        <h3>${art.title}</h3>
+                        <p class="author">◎ ${art.author}</p>
+                        <p style="color:#666; font-size:0.9rem; margin-top:10px;">${art.paragraphs.length} 段 · ${new Date(art.createdAt).toLocaleDateString()}</p>
+                        <button class="delete-btn" onclick="app.deleteCustomEssay('${art.id}', event)">删除</button>
+                    </div>
+                `).join('');
+
+                const builtinEssaysHTML = CORPUS.map(art => {
+                    const progress = this.userData.progress[art.id] || 0;
+                    const percent = Math.round((progress / art.paragraphs.length) * 100);
+                    return `
+                        <div class="card article-card" onclick="app.startExercise(${art.id})">
+                            <h3>${art.title}</h3>
+                            <p class="author">◎ ${art.author}</p>
+                            <div style="margin-top:15px;">
+                                <div style="display:flex; justify-content:space-between; font-size:0.85rem; color:#666; margin-bottom:5px;">
+                                    <span>练习进度</span>
+                                    <span>${percent}%</span>
+                                </div>
+                                <div style="background:#f0f0f0; border-radius:4px; height:6px; overflow:hidden;">
+                                    <div style="background:var(--color-primary); height:100%; width:${percent}%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                }).join('');
+
+                const uploadCardHTML = `
+                    <div class="card article-card upload-card" onclick="app.openUploadModal()">
+                        <div class="upload-badge">+</div>
+                        <div class="upload-icon">📄</div>
+                        <h3>上传自定义文章</h3>
+                        <p style="color:#666; margin-top:8px; font-size:0.9rem;">支持粘贴或上传中文文本，AI 自动分段并提供参考译文</p>
+                        <span class="upload-tag">自定义 · 无限篇目</span>
+                    </div>
+                `;
+
+                container.innerHTML = customEssaysHTML + builtinEssaysHTML + uploadCardHTML;
+            },
+
+            async submitTranslation() {
+                const userText = document.getElementById('user-translation').value.trim();
+                if (!userText) {
+                    alert('请先输入译文');
+                    return;
+                }
+
+                const p = this.currentArticle.paragraphs[this.currentParagraphIndex];
+                const btn = document.getElementById('submit-btn');
+                btn.disabled = true;
+                btn.textContent = 'AI 批改中...';
+
+                try {
+                    let feedback;
+                    if (this.currentArticle.isCustom) {
+                        feedback = await this.getCustomAIFeedback(p.zh, userText);
+                    } else {
+                        feedback = await this.getAIFeedback(p, userText);
+                    }
+
+                    const duration = this.stopTimer();
+                    this.renderFeedback(feedback, p, userText, duration);
+
+                    if (this.currentArticle.isCustom && feedback.referenceTranslation) {
+                        p.aiReference = feedback.referenceTranslation;
+                        this.saveCustomEssayReference(this.currentArticle.id, this.currentParagraphIndex, feedback.referenceTranslation);
+                    }
+                } catch (e) {
+                    console.error(e);
+                    alert('批改失败，请稍后重试');
+                    btn.disabled = false;
+                    btn.textContent = '提交给 AI 批改';
+                }
+            },
+
+            async getCustomAIFeedback(zhText, userText) {
+                const prompt = `你是一位专业的英语翻译批改老师。请严格按照CATTI二级笔译扣分标准批改以下译文。
+
+【原文（中文）】
+${zhText}
+
+【用户译文】
+${userText}
+
+注意：本篇文章为用户自定义上传，无官方参考译文。请你同时完成两项任务：
+1. 批改用户译文，指出所有错误并扣分
+2. 提供一段高质量的参考译文
+
+请严格按以下 JSON 格式返回，不返回任何其他内容：
+{
+    "score": 85,
+    "grade": "优秀|及格|不及格",
+    "referenceTranslation": "DeepSeek 生成的参考译文",
+    "deductions": [
+        {
+            "type": "错译|漏译|严重误译|拼写错误|语法错误|用词不准确|逻辑不通|翻译腔|特殊句式未体现",
+            "userText": "用户原文中的问题片段",
+            "correction": "正确表达",
+            "explanation": "扣分原因",
+            "points": 2
+        }
+    ],
+    "keyPoints": [
+        {
+            "zh": "难点中文词句",
+            "translations": ["译法一（DeepSeek推荐）", "译法二", "译法三"],
+            "note": "翻译说明"
+        }
+    ],
+    "studyNotes": ["要点1", "要点2", "要点3"],
+    "summary": "总体评语（50字以内）"
+}
+
+评分规则（起始100分，按以下标准扣分）：
+- 错译/漏译：每处 -2 分
+- 严重误译（观点错误）：每处 -5 分
+- 拼写错误：每处 -1 分
+- 用词不准确：每处 -1 分，重复出现重复扣
+- 语法/时态/语态错误：每处 -2 分
+- 逻辑不通/翻译腔/Chinglish：每处 -2 分
+- 特殊句式未体现：每处 -2 分
+- 关键词误用：每处 -1 分，重复扣分
+- 最低分 0 分`;
+
+                const response = await fetch(this.baseUrl + '/chat/completions', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Authorization': 'Bearer ' + this.apiKey
+                    },
+                    body: JSON.stringify({
+                        model: 'deepseek-chat',
+                        messages: [{ role: 'user', content: prompt }],
+                        temperature: 0.7
+                    })
+                });
+
+                const data = await response.json();
+                const jsonStr = data.choices[0].message.content;
+                return JSON.parse(jsonStr);
+            },
+
+            saveCustomEssayReference(essayId, paragraphIndex, reference) {
+                const essay = this.userData.customEssays.find(e => e.id === essayId);
+                if (essay && essay.paragraphs[paragraphIndex]) {
+                    essay.paragraphs[paragraphIndex].aiReference = reference;
+                    this.saveUserData();
+                }
+            },
+
+            renderFeedback(feedback, paragraph, userText, duration) {
+                const container = document.getElementById('exercise-content');
+                const isCustom = this.currentArticle.isCustom;
+
+                container.innerHTML = `
+                    <div class="back-link" onclick="app.exitExercise()">← 返回篇目选择</div>
+                    
+                    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:20px; flex-wrap:wrap; gap:15px;">
+                        <div>
+                            <h2>${this.currentArticle.title}</h2>
+                            <p class="author">◎ ${this.currentArticle.author}</p>
+                        </div>
+                        <div class="score-badge">${feedback.score} 分 · ${feedback.grade}</div>
+                    </div>
+
+                    <div style="background:rgba(92,138,92,0.1); padding:15px; border-radius:8px; margin-bottom:20px;">
+                        <strong>📝 总体评语：</strong>${feedback.summary}
+                    </div>
+
+                    <div class="section">
+                        <h4>📖 原文</h4>
+                        <p class="zh-text">${paragraph.zh}</p>
+                    </div>
+
+                    <div class="section">
+                        <h4>✏️ 你的译文</h4>
+                        <div class="annotated-text">${this.annotateUserText(userText, feedback.deductions)}</div>
+                    </div>
+
+                    <div class="section">
+                        <h4>🔍 扣分明细</h4>
+                        <table class="deduction-table">
+                            <thead>
+                                <tr>
+                                    <th>错误类型</th>
+                                    <th>原文错误</th>
+                                    <th>建议修正</th>
+                                    <th>扣分</th>
+                                    <th>说明</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                ${feedback.deductions.map(d => `
+                                    <tr>
+                                        <td><span class="${this.getErrorClass(d.type)}">${d.type}</span></td>
+                                        <td>${d.userText}</td>
+                                        <td><span style="color:var(--color-primary); font-weight:600;">${d.correction}</span></td>
+                                        <td><strong>-${d.points}</strong></td>
+                                        <td>${d.explanation}</td>
+                                    </tr>
+                                `).join('')}
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="ref-section">
+                        <h4>✨ 难点多译对照</h4>
+                        ${feedback.keyPoints.map(kp => `
+                            <div style="margin-bottom:15px; padding:15px; background:rgba(160, 120, 90, 0.05); border-radius:8px;">
+                                <p><strong>难点：</strong>${kp.zh}</p>
+                                <ul class="notes-list">
+                                    ${kp.translations.map((t, i) => `<li>${i === 0 ? '★ ' : ''}${t}</li>`).join('')}
+                                </ul>
+                                <p style="font-size:0.85rem; color:#888; margin-top:5px;">注：${kp.note}</p>
+                            </div>
+                        `).join('')}
+                    </div>
+
+                    <div class="ref-section">
+                        <h4>📚 参考译文 ${isCustom ? '（AI 生成）' : '（张培基）'}</h4>
+                        <div class="ref-content">${isCustom ? feedback.referenceTranslation : paragraph.en}</div>
+                        ${!isCustom && paragraph.notes ? `
+                            <ul class="notes-list">
+                                ${paragraph.notes.map((n, i) => `<li>[注${i+1}] <strong>${n.original}</strong>：${n.explanation}</li>`).join('')}
+                            </ul>
+                        ` : ''}
+                    </div>
+
+                    <div class="ref-section">
+                        <h4>📝 本段学习要点</h4>
+                        <ul class="notes-list">
+                            ${feedback.studyNotes.map(note => `<li>• ${note}</li>`).join('')}
+                        </ul>
+                    </div>
+
+                    ${this.isDemoMode ? `
+                        <div class="feature-guide-section">
+                            <h4 style="margin-bottom: 15px; color: var(--color-wood);">✨ 继续探索更多功能</h4>
+                            <div class="feature-guide-grid">
+                                <div class="feature-guide-card" onclick="app.showView('home'); app.isDemoMode=false;">
+                                    <div class="icon">🗂</div>
+                                    <div class="title">篇目选择</div>
+                                    <div class="desc">多篇张培基散文，自由选择练习</div>
+                                </div>
+                                <div class="feature-guide-card" onclick="app.showView('wrongbook'); app.isDemoMode=false;">
+                                    <div class="icon">❌</div>
+                                    <div class="title">错题本</div>
+                                    <div class="desc">自动收录翻译错误，支持反复回顾</div>
+                                </div>
+                                <div class="feature-guide-card" onclick="app.showView('terminology'); app.isDemoMode=false;">
+                                    <div class="icon">📖</div>
+                                    <div class="title">术语库</div>
+                                    <div class="desc">内置+自定义术语，随时查阅</div>
+                                </div>
+                                <div class="feature-guide-card" onclick="app.openUploadModal(); app.isDemoMode=false;">
+                                    <div class="icon">📄</div>
+                                    <div class="title">上传文章</div>
+                                    <div class="desc">上传任意中文文本，解锁无限练习篇目</div>
+                                </div>
+                            </div>
+                        </div>
+                    ` : ''}
+
+                    <div class="btn-group" style="margin-top:30px;">
+                        ${this.currentParagraphIndex < this.currentArticle.paragraphs.length - 1 ? `
+                            <button class="btn btn-primary" onclick="app.nextParagraph()">下一段 →</button>
+                        ` : `
+                            <button class="btn btn-primary" onclick="app.showView('home')">完成练习 ✓</button>
+                        `}
+                        <button class="btn btn-secondary" onclick="app.retryParagraph()">重新翻译本段</button>
+                    </div>
+                `;
+
+                this.saveResultToHistory(feedback, paragraph, userText, duration);
+            },
+
+            renderGuideSection() {
+                const container = document.getElementById('guide-section');
+                if (!container) return;
+                container.innerHTML = `
+                    <div class="guide-section">
+                        <h3>📖 平台使用指南</h3>
+                        <div class="guide-steps">
+                            <div class="guide-step">
+                                <div class="number">1</div>
+                                <div class="title">选择篇目</div>
+                                <div class="desc">从多篇张培基散文中选择</div>
+                            </div>
+                            <div class="guide-arrow">→</div>
+                            <div class="guide-step">
+                                <div class="number">2</div>
+                                <div class="title">逐段翻译</div>
+                                <div class="desc">逐段进行翻译练习</div>
+                            </div>
+                            <div class="guide-arrow">→</div>
+                            <div class="guide-step">
+                                <div class="number">3</div>
+                                <div class="title">查看批改</div>
+                                <div class="desc">AI 批改并给出参考译文</div>
+                            </div>
+                        </div>
+                        <p style="margin-top:15px; color:#666; text-align:center;">
+                            或：<span style="color:var(--color-primary); font-weight:600;">上传自定义文章</span> → 逐段翻译 → AI 生成参考译文
+                        </p>
+                    </div>
+                `;
+            },
+
+            renderDemoCard() {
+                const container = document.getElementById('demo-section');
+                if (!container) return;
+                container.innerHTML = `
+                    <div class="card demo-card" onclick="app.startDemo()">
+                        <div class="demo-badge">✦ 功能体验</div>
+                        <div class="demo-content">
+                            <div class="demo-info">
+                                <h3>${DEMO_DATA.title}</h3>
+                                <p class="author">◎ ${DEMO_DATA.author}</p>
+                                <p style="color: #666; margin-top: 10px;">点击体验完整翻译批改流程</p>
+                            </div>
+                            <div class="demo-features">
+                                <div class="demo-feature"><span>🖊</span> 逐段翻译练习</div>
+                                <div class="demo-feature"><span>🤖</span> AI 智能批改评分</div>
+                                <div class="demo-feature"><span>📚</span> 张培基参考译文+注释</div>
+                                <div class="demo-feature"><span>📊</span> 学情数据追踪</div>
+                                <div class="demo-feature"><span>📄</span> 自定义上传</div>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            },
+
+            renderAnalyticsOverview() {
+                const data = this.userData.analytics;
+                const totalPractice = data.length;
+                const avgScore = totalPractice > 0 ? Math.round(data.reduce((sum, d) => sum + d.score, 0) / totalPractice) : 0;
+                const totalTime = data.reduce((sum, d) => sum + d.duration, 0);
+
+                const essayAttempts = {};
+                data.forEach(d => {
+                    const title = d.essayTitle + (d.isCustom ? '（自定义）' : '');
+                    if (!essayAttempts[title]) {
+                        essayAttempts[title] = { scores: [], totalTime: 0 };
+                    }
+                    essayAttempts[title].scores.push(d.score);
+                    essayAttempts[title].totalTime += d.duration;
+                });
+
+                const container = document.getElementById('analytics-overview');
+                container.innerHTML = `
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <div class="stat-value">${totalPractice}</div>
+                            <div class="stat-label">总练习段数</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-value">${avgScore}</div>
+                            <div class="stat-label">平均得分</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-value">${Math.round(totalTime / 60)}</div>
+                            <div class="stat-label">练习时长(分钟)</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-value">${Object.keys(essayAttempts).length}</div>
+                            <div class="stat-label">练习篇目数</div>
+                        </div>
+                    </div>
+
+                    <div class="card" style="margin-top:30px;">
+                        <h4 style="margin-bottom:15px;">📚 各篇练习进度</h4>
+                        <div style="max-height:300px; overflow-y:auto;">
+                            ${Object.entries(essayAttempts).map(([title, data]) => {
+                                const avg = Math.round(data.scores.reduce((a, b) => a + b, 0) / data.scores.length);
+                                return `
+                                    <div style="padding:12px; border-bottom:1px solid #eee; display:flex; justify-content:space-between; align-items:center;">
+                                        <div>
+                                            <div style="font-weight:600;">${title}</div>
+                                            <div style="font-size:0.85rem; color:#666;">${data.scores.length} 段练习</div>
+                                        </div>
+                                        <div style="text-align:right;">
+                                            <div style="font-weight:700; color:var(--color-primary);">${avg} 分</div>
+                                            <div style="font-size:0.85rem; color:#666;">平均</div>
+                                        </div>
+                                    </div>
+                                `;
+                            }).join('')}
+                            ${Object.keys(essayAttempts).length === 0 ? '<p style="color:#888; text-align:center; padding:30px;">还没有练习记录</p>' : ''}
+                        </div>
+                    </div>
+
+                    <div class="feature-guide-section" style="margin-top:30px;">
+                        <h4 style="margin-bottom:15px; color: var(--color-wood);">🎯 推荐操作</h4>
+                        <div class="feature-guide-grid">
+                            <div class="feature-guide-card" onclick="app.showView('home')">
+                                <div class="icon">📖</div>
+                                <div class="title">开始新练习</div>
+                                <div class="desc">选择一篇新文章开始练习</div>
+                            </div>
+                            <div class="feature-guide-card" onclick="app.showView('wrongbook')">
+                                <div class="icon">❌</div>
+                                <div class="title">查看错题本</div>
+                                <div class="desc">复习之前的翻译错误</div>
+                            </div>
+                            <div class="feature-guide-card" onclick="app.practiceLowestScore()">
+                                <div class="icon">📊</div>
+                                <div class="title">复习薄弱项</div>
+                                <div class="desc">练习得分最低的段落</div>
+                            </div>
+                            <div class="feature-guide-card" onclick="app.showView('home'); setTimeout(()=>app.openUploadModal(),100);">
+                                <div class="icon">📄</div>
+                                <div class="title">上传新文章</div>
+                                <div class="desc">上传自定义文章进行练习</div>
+                            </div>
+                        </div>
+                    </div>
+                `;
             }
         };
 
